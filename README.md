@@ -67,7 +67,7 @@ The objective of the game is to keep the ball in play by moving the paddle up an
 
 - **Left Button:** Move the left paddle up
 - **Right Button:** Move the right paddle down
-- **Potentiometer (if used):** Adjust the game speed
+- **Potentiometer:** Adjust the light of LCD
 
 ### Scoring
 
