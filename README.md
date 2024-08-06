@@ -9,7 +9,6 @@ Welcome to the Ping Pong Arduino Game! This project is a fun and interactive way
 - [Components](#components)
 - [Setup and Installation](#setup-and-installation)
 - [Gameplay](#gameplay)
-- [Code Overview](#code-overview)
 - [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
 - [License](#license)
@@ -75,31 +74,4 @@ The objective of the game is to keep the ball in play by moving the paddle up an
 - Each successful hit increases the score by 1.
 - The score is displayed on the LED matrix or serial monitor.
 
-## Code Overview
 
-The Arduino code for this game is written in C++ and consists of the following main parts:
-
-- **Setup:** Initializes the pins and variables.
-- **Loop:** Contains the game logic, including ball movement, collision detection, and score updating.
-- **Functions:** Helper functions to handle paddle movement, ball movement, and collision detection.
-
-```cpp
-void setup() {
-    // Initialize pins and variables
-}
-
-void loop() {
-    // Game logic
-}
-
-void movePaddle() {
-    // Handle paddle movement
-}
-
-void moveBall() {
-    // Handle ball movement
-}
-
-void checkCollision() {
-    // Check for collisions and update score
-}
